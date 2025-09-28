@@ -225,7 +225,7 @@ export default function Portfolio() {
                 <div className="mt-4 flex flex-wrap gap-2">
                   <span className="rounded bg-primary/15 px-2 py-1 text-xs text-primary">{"Deep Learning"}</span>
                   <span className="rounded bg-primary/15 px-2 py-1 text-xs text-primary">CNN</span>
-                  <span className="rounded bg-primary/15 px-2 py-1 text-xs text-primary">U-Net Regression </span>
+                  <span className="rounded bg-primary/15 px-2 py-1 text-xs text-primary">U-Net</span>
                 </div>
               </CardContent>
             </Card>
