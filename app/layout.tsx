@@ -19,8 +19,7 @@ import "./globals.css"
 
 export const metadata: Metadata = {
   title: "Fernando Jason - Future AI engineer, Full-Stack Web Developer",
-  description:
-    "Portfolio of Fernando Jason, Future AI engineer, Full-Stack Web Developer passionate about building exceptional digital experiences.",
+  description: "Portfolio of Fernando Jason, Future AI engineer, Full-Stack Web Developer passionate about building exceptional digital experiences.",
 }
 
 export default function RootLayout({
