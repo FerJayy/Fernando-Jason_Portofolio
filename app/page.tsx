@@ -1,10 +1,9 @@
 "use client";
 
-
-import { Github, Linkedin, Mail, ExternalLink, Instagram } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent } from "@/components/ui/card"
-import TerminalDisplay from "@/components/terminal-display"
+import { Github, Linkedin, Mail, ExternalLink, Instagram } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
+import TerminalDisplay from "@/components/terminal-display";
 
 export default function Portfolio() {
   return (
@@ -13,7 +12,7 @@ export default function Portfolio() {
       <nav className="fixed top-0 left-0 w-full z-50 bg-background/80 backdrop-blur-sm border-b border-border">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
           <div className="text-xl text-foreground opacity-100 text-center font-bold">{"FJ"}</div>
-          <div className="hidden space-x-8 md:flex">
+
             <a href="#about" className="text-muted-foreground transition-colors hover:text-primary">
               About
             </a>
