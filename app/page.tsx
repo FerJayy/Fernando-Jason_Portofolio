@@ -87,7 +87,7 @@ export default function Portfolio() {
             <div className="flex justify-center lg:justify-center">
               <img
                 src="/Fernando 1.jpg"
-                alt="Fernando Jason
+                alt="Fernando Jason"
                 className="w-64 rounded-lg object-cover shadow-xl transition-transform hover:scale-105 h-64 text-center"
               />
             </div>
