@@ -10,25 +10,26 @@ export default function Portfolio() {
     <div className="min-h-screen bg-background">
       {/* Navigation */}
       <nav className="fixed top-0 left-0 w-full z-50 bg-background/80 backdrop-blur-sm border-b border-border">
-        <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-          <div className="text-xl text-foreground opacity-100 text-center font-bold">{"FJ"}</div>
+  <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
+    <div className="text-xl text-foreground opacity-100 text-center font-bold">{"FJ"}</div>
 
-            <a href="#about" className="text-muted-foreground transition-colors hover:text-primary">
-              About
-            </a>
-            <a href="#experience" className="text-muted-foreground transition-colors hover:text-primary">
-              Experience
-            </a>
-            <a href="#projects" className="text-muted-foreground transition-colors hover:text-primary">
-              Projects
-            </a>
-            
-            <a href="#contact" className="text-muted-foreground transition-colors hover:text-primary">
-              Contact
-            </a>
-          </div>
-        </div>
-      </nav>
+    <div className="flex gap-6">
+      <a href="#about" className="text-muted-foreground transition-colors hover:text-primary">
+        About
+      </a>
+      <a href="#experience" className="text-muted-foreground transition-colors hover:text-primary">
+        Experience
+      </a>
+      <a href="#projects" className="text-muted-foreground transition-colors hover:text-primary">
+        Projects
+      </a>
+      <a href="#contact" className="text-muted-foreground transition-colors hover:text-primary">
+        Contact
+      </a>
+    </div>
+  </div>
+</nav>
+
 
       {/* Hero Section */}
       <section className="pt-32 pb-20 px-6">
