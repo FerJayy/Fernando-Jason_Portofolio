@@ -235,6 +235,9 @@ export default function Portfolio() {
                   <h3 className="text-xl font-semibold transition-colors group-hover:text-primary text-primary">
                     Mimo.
                   </h3>
+                  <h4 className="text-xl font-semibold transition-colors group-hover:text-primary text-primary">
+                    (On Progress..)
+                  </h4>
                   <a
                     href="https://mimo-finance-app.vercel.app/"
                     target="_blank"
