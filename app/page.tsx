@@ -233,10 +233,10 @@ export default function Portfolio() {
               <CardContent className="p-6">
                 <div className="mb-4 flex items-start justify-between">
                   <h3 className="text-xl font-semibold transition-colors group-hover:text-primary text-primary">
-                    CateringZ
+                    Mimo.
                   </h3>
                   <a
-                    href="https://ferjayy.github.io/WebsiteCateringz/"
+                    href="https://mimo-finance-app.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="h-5 w-5 text-muted-foreground group-hover:text-primary"
@@ -245,12 +245,12 @@ export default function Portfolio() {
                   </a>
                 </div>
                 <p className="text-muted-foreground">
-                  Created and deployed a self-made website with a user-friendly UI to streamline catering service browsing and ordering.
+                  Mimo is a web-based finance tracker designed to simplify budgeting and spending management with real-time data and a modern, easy-to-use interface.
                 </p>
                 <div className="mt-4 flex flex-wrap gap-2">
-                  <span className="rounded bg-primary/15 px-2 py-1 text-xs text-primary">HTML</span>
+                  <span className="rounded bg-primary/15 px-2 py-1 text-xs text-primary">React.js</span>
                   <span className="rounded bg-primary/15 px-2 py-1 text-xs text-primary">CSS</span>
-                  <span className="rounded bg-primary/15 px-2 py-1 text-xs text-primary">Java</span>
+                  <span className="rounded bg-primary/15 px-2 py-1 text-xs text-primary">Firebase DB</span>
                 </div>
               </CardContent>
             </Card>
