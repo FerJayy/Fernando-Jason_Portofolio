@@ -177,31 +177,38 @@ export default function Portfolio() {
             {"Self-made builds or projects that combines my creativity with technology."}
           </p>
           <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            <Card className="group border-border bg-card/80 transition-transform hover:-translate-y-1 shadow-md hover:shadow-lg">
-              <CardContent className="p-6">
-                <div className="mb-4 flex items-start justify-between">
-                  <h3 className="text-xl font-semibold transition-colors group-hover:text-primary text-primary">
-                    CateringZ
-                  </h3>
-                  <a
-                    href="https://ferjayy.github.io/WebsiteCateringz/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="h-5 w-5 text-muted-foreground group-hover:text-primary"
-                  >
-                    <ExternalLink />
-                  </a>
-                </div>
-                <p className="text-muted-foreground">
-                  Created and deployed a self-made website with a user-friendly UI to streamline catering service browsing and ordering.
-                </p>
-                <div className="mt-4 flex flex-wrap gap-2">
-                  <span className="rounded bg-primary/15 px-2 py-1 text-xs text-primary">HTML</span>
-                  <span className="rounded bg-primary/15 px-2 py-1 text-xs text-primary">CSS</span>
-                  <span className="rounded bg-primary/15 px-2 py-1 text-xs text-primary">Java</span>
-                </div>
-              </CardContent>
-            </Card>
+           <Card className="group border-border bg-card/80 transition-transform hover:-translate-y-1 shadow-md hover:shadow-lg overflow-hidden">
+        <div className="relative h-40 w-full overflow-hidden">
+          <img
+            src="/cateringz.png"
+            alt="CateringZ Preview"
+            className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+          />
+        </div>
+        <CardContent className="p-6">
+          <div className="mb-4 flex items-start justify-between">
+            <h3 className="text-xl font-semibold text-primary group-hover:text-primary/90">
+              CateringZ
+            </h3>
+            <a
+              href="https://ferjayy.github.io/WebsiteCateringz/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="h-5 w-5 text-muted-foreground group-hover:text-primary"
+            >
+              <ExternalLink />
+            </a>
+          </div>
+          <p className="text-muted-foreground">
+            Created and deployed a self-made website with a user-friendly UI to streamline catering service browsing and ordering.
+          </p>
+          <div className="mt-4 flex flex-wrap gap-2">
+            <span className="rounded bg-primary/15 px-2 py-1 text-xs text-primary">HTML</span>
+            <span className="rounded bg-primary/15 px-2 py-1 text-xs text-primary">CSS</span>
+            <span className="rounded bg-primary/15 px-2 py-1 text-xs text-primary">Java</span>
+          </div>
+        </CardContent>
+      </Card>
             <Card className="group border-border bg-card/80 transition-transform hover:-translate-y-1 shadow-md hover:shadow-lg">
               <CardContent className="p-6">
                 <div className="mb-4 flex items-start justify-between">
