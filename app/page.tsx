@@ -11,7 +11,7 @@ export default function Portfolio() {
       {/* Navigation */}
       <nav className="fixed top-0 left-0 w-full z-50 bg-background/80 backdrop-blur-sm border-b border-border">
   <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-    <div className="text-xl text-foreground opacity-100 text-center font-bold">{"FJ"}</div>
+    <div className="text-xl text-foreground opacity-100 text-center font-bold"><Link to ="/">{"FJ"}</div>v
 
     <div className="flex gap-6">
       <a href="#about" className="text-muted-foreground transition-colors hover:text-primary">
