@@ -63,7 +63,7 @@ export default function Portfolio() {
               <div className="mt-8 grid gap-3 sm:grid-cols-2">
                 <div className="rounded-2xl border border-border bg-card/60 p-4">
                   <p className="text-sm text-primary">Core Focus</p>
-                  <p className="mt-1 text-lg font-semibold text-[rgba(255,255,255,1)]">Applied Intelligent Systems &amp; Data Analyst/Engineer</p>
+                  <p className="mt-1 text-lg font-semibold text-[rgba(255,255,255,1)]">Applied Intelligent Systems</p>
                 </div>
                 <div className="rounded-2xl border border-border bg-card/60 p-4">
                   <p className="text-sm text-primary">Toolbox</p>
