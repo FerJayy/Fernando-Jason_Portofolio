@@ -177,15 +177,15 @@ export default function Portfolio() {
             {"Self-made builds or projects that combines my creativity with technology."}
           </p>
           <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-           <Card className="group border-border bg-card/80 transition-transform hover:-translate-y-1 shadow-md hover:shadow-lg overflow-hidden">
+           <Card className="group border-border bg-card/80 transition-transform hover:-translate-y-1 shadow-md hover:shadow-lg overflow-hidden rounded-2xl">
         <div className="relative h-40 w-full overflow-hidden">
           <img
             src="/Cateringz.png"
             alt="CateringZ Preview"
-            className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+            className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
           />
         </div>
-        <CardContent className="p-6">
+        <CardContent className="p-6" bg-card" >
           <div className="mb-4 flex items-start justify-between">
             <h3 className="text-xl font-semibold text-primary group-hover:text-primary/90">
               CateringZ
