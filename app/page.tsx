@@ -93,13 +93,13 @@ export default function Portfolio() {
                 </p>
                  <div className="mt-8 flex flex-wrap gap-4">
                  <Button variant="outline" size="lg"className="bg-primary hover:bg-primary/90 text-white font-semibold flex items-center gap-2 px-6 py-3 transition" asChild>
-                 <a href="/fernando-jason-resume.pdf" download className="flex items-center gap-2">
+                 <a href="/Fernando-Jason-Resume.pdf" download className="flex items-center gap-2">
                  <Download className="h-5 w-5" />
                   Download Resume
                   </a>
                   </Button>
                    <Button size="lg" variant="outline" className="bg-black border border-primary text-primary hover:bg-primary hover:text-white font-semibold flex items-center gap-2 px-6 py-3 transition" asChild>
-                  <a href="/fernando-jason-resume.pdf" target="_blank" rel="noopener noreferrer">
+                  <a href="/Fernando-Jason-Resume.pdf" target="_blank" rel="noopener noreferrer">
                   <Download className="h-5 w-5" />
                   View Resume
                   </a>
