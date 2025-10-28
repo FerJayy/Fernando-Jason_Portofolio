@@ -98,6 +98,12 @@ export default function Portfolio() {
                   Download Resume
                   </a>
                   </Button>
+                   <Button size="lg" variant="outline" className="bg-black border border-primary text-primary hover:bg-primary hover:text-white font-semibold flex items-center gap-2 px-6 py-3 transition" asChild>
+                  <a href="/fernando-jason-resume.pdf" target="_blank" rel="noopener noreferrer">
+                  <Download className="h-5 w-5" />
+                  View Resume
+                  </a>
+                  </Button>
                   </div>
               </div>
             </div>
