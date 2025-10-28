@@ -26,7 +26,7 @@ export default function Portfolio() {
       <a href="#contact" className="text-muted-foreground transition-colors hover:text-primary">
         Contact
       </a>
-      <a href="public/Fernando Jason-resume (3).pdf" download className="text-muted-foreground transition-colors hover:text-primary font-medium">
+      <a href="/Fernando-Jason-Resume.pdf" download className="text-muted-foreground transition-colors hover:text-primary font-medium">
         Resume
       </a>
     </div>
@@ -87,7 +87,7 @@ export default function Portfolio() {
                 </p>
                  <div className="mt-8 flex gap-4">
                 <Button asChild>
-                <a href="public/Fernando Jason-resume (3).pdf" download>
+                <a href="/Fernando-Jason-Resume.pdf" download>
                 Download Resume
                 </a>
                 </Button>
