@@ -13,13 +13,13 @@ const TerminalDisplay = () => {
           <span className="text-primary">{">"}</span> Exploring ways to connect AI with real-world apps
         </p>
         <p className="flex items-center gap-2 text-[rgba(255,255,255,1)]">
-          <span className="text-primary">{">"}</span> Developing a finance / money manager web project
+          <span className="text-primary">{">"}</span> Developing a finance / money manager web project called Mimo.
         </p>
         <p className="flex items-center gap-2 text-[rgba(255,255,255,1)]">
-          <span className="text-primary">{">"}</span> Diving deeper into AI & machine learning 
+          <span className="text-primary">{">"}</span> Diving deeper into AI, Machine Learning & Deep Learning
         </p>
         <p className="flex items-center gap-2">
-          <span className="text-primary">{">"}</span> Learning React.js
+          <span className="text-primary">{">"}</span> Learning React.Js, Node.js, Laravel, Tailwind CSS
         </p>
 
         <p className="mt-6 text-primary">// Skills in Development</p>
@@ -33,7 +33,7 @@ const TerminalDisplay = () => {
           <span className="text-primary">{">"}</span> Full-Stack Development
         </p>
         <p className="flex items-center gap-2 text-[rgba(255,255,255,1)]">
-          <span className="text-primary">{">"}</span> Research & Academic Writing
+          <span className="text-primary">{">"}</span> Data Analyst and Data Engineering
         </p>
         <p className="mt-4 flex items-center gap-2">
           <span className="text-primary">{">"}</span> <span className="animate-blink">_</span>
