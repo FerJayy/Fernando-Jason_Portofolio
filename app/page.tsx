@@ -26,9 +26,11 @@ export default function Portfolio() {
       <a href="#contact" className="text-muted-foreground transition-colors hover:text-primary">
         Contact
       </a>
-      <a href="/Fernando-Jason-Resume.pdf" download className="text-muted-foreground transition-colors hover:text-primary font-medium">
-        Resume
+      <Button asChild>
+      <a href="/Fernando-Jason-Resume.pdf" download className="flex items-center gap-2">
+      <Download className="h-4 w-4" /> Download Resume
       </a>
+      </Button>
     </div>
   </div>
 </nav>
