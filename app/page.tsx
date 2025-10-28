@@ -25,6 +25,9 @@ export default function Portfolio() {
       <a href="#contact" className="text-muted-foreground transition-colors hover:text-primary">
         Contact
       </a>
+      <a href="/Fernando Jason-resume(3).pdf" download className="text-muted-foreground transition-colors hover:text-primary font-medium">
+        Resume
+      </a>
     </div>
   </div>
 </nav>
