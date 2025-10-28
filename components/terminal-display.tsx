@@ -13,7 +13,7 @@ const TerminalDisplay = () => {
           <span className="text-primary">{">"}</span> Exploring ways to connect AI with real-world apps
         </p>
         <p className="flex items-center gap-2 text-[rgba(255,255,255,1)]">
-          <span className="text-primary">{">"}</span> Developing a finance / money manager web project called Mimo.
+          <span className="text-primary">{">"}</span> Developing a finance / money manager web project (Mimo).
         </p>
         <p className="flex items-center gap-2 text-[rgba(255,255,255,1)]">
           <span className="text-primary">{">"}</span> Diving deeper into AI, Machine Learning & Deep Learning
