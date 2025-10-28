@@ -47,10 +47,7 @@ export default function Portfolio() {
             <div>
               <h1 className="text-balance text-5xl font-bold md:text-6xl text-[rgba(252,252,252,1)]">Fernando Jason</h1>
               <p className="mt-4 font-medium uppercase text-left tracking-wide text-lg text-primary">
-                Future AI Engineer | Web Developer
-              </p>
-              <p className="mt-4 font-medium uppercase text-left tracking-wide text-lg text-primary">
-                Data Analyst/Engineer
+                AI Engineer | Web Developer | Data Analyst/Engineer
               </p>
               <p className="mt-6 text-pretty leading-relaxed text-left text-base tracking-tight text-[rgba(255,255,255,1)]">
                 I design and build intelligent systems that bring ideas to life. My focus is on AI, data-driven solutions, and full-stack development, with a strong interest in turning research concepts into practical, real-world applications.
