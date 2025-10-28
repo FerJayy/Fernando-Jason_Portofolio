@@ -79,19 +79,19 @@ export default function Portfolio() {
             <div>
               <h2 className="text-3xl font-bold text-primary">About Me</h2>
               <div className="mt-6 space-y-6 text-muted-foreground">
-                <div className="mt-8 flex gap-4">
-                <Button asChild>
-                <a href="/resume.pdf" download>
-                Download Resume
-                </a>
-                </Button>
-                </div>
                 <p className="leading-relaxed">
                   Hello! I am Fernando Jason, I am a Computer Science and Intelligent Systems student at Binus University, with a strong interest in AI, Machine Learning, Web and Software development. I want to explore how intelligent systems can solve real-world problems, and I am passionate about applying these skills to create innovative and impactful solutions.
                 </p>
                 <p className="leading-relaxed">
                   Beyond academics, I enjoy working on projects that combine AI, data, and system design—from building intelligent applications to experimenting with deep learning models. I am constantly seeking opportunities to learn, collaborate, and grow in the tech field, whether through internships, research, or personal projects.
                 </p>
+                 <div className="mt-8 flex gap-4">
+                <Button asChild>
+                <a href="/resume.pdf" download>
+                Download Resume
+                </a>
+                </Button>
+                </div>
               </div>
             </div>
             <div className="flex justify-center lg:justify-center">
