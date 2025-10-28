@@ -26,11 +26,16 @@ export default function Portfolio() {
       <a href="#contact" className="text-muted-foreground transition-colors hover:text-primary">
         Contact
       </a>
-      <Button className="bg-primary text-white text-sm px-3 py-1 rounded-md hover:bg-primary/90 transition" asChild>
+      <Button
+      variant="outline"
+      className="text-sm px-4 py-1.5 border border-primary text-primary hover:bg-primary hover:text-white transition"
+      asChild
+      >
       <a href="/fernando-jason-resume.pdf" download>
       Resume
       </a>
-</Button>
+      </Button>
+
     </div>
   </div>
 </nav>
