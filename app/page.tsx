@@ -1,4 +1,5 @@
 "use client";
+import { Download } from "lucide-react";
 import { Github, Linkedin, Mail, ExternalLink, Instagram } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -78,6 +79,13 @@ export default function Portfolio() {
             <div>
               <h2 className="text-3xl font-bold text-primary">About Me</h2>
               <div className="mt-6 space-y-6 text-muted-foreground">
+                <div className="mt-8 flex gap-4">
+                <Button asChild>
+                <a href="/resume.pdf" download>
+                Download Resume
+                </a>
+                </Button>
+                </div>
                 <p className="leading-relaxed">
                   Hello! I am Fernando Jason, I am a Computer Science and Intelligent Systems student at Binus University, with a strong interest in AI, Machine Learning, Web and Software development. I want to explore how intelligent systems can solve real-world problems, and I am passionate about applying these skills to create innovative and impactful solutions.
                 </p>
