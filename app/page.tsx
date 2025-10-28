@@ -269,8 +269,7 @@ export default function Portfolio() {
         <div className="mx-auto max-w-4xl text-center">
           <h2 className="text-3xl font-bold text-primary">Get In Touch.</h2>
           <p className="mt-4 text-pretty text-lg text-muted-foreground">
-            Open to collaborations, research partnerships, and conversations around intelligent systems. Reach out via
-            any channel below.
+            I’m open to internship roles, collaborations, and professional connections. Don’t hesitate to reach out — I’m always up for learning, growing, and contributing.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <Button variant="outline" size="lg" asChild>
@@ -319,7 +318,7 @@ export default function Portfolio() {
       {/* Footer */}
       <footer className="py-8 px-6 border-t border-border">
         <div className="max-w-6xl mx-auto text-center">
-          <p className="text-muted-foreground">© 2025 Fernando Jason. Built with Next.js and Tailwind CSS.</p>
+          <p className="text-muted-foreground">© 2025 Fernando Jason.</p>
         </div>
       </footer>
     </div>
