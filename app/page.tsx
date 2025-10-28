@@ -92,7 +92,7 @@ export default function Portfolio() {
                   Beyond academics, I enjoy working on projects that combine AI, data, and system design—from building intelligent applications to experimenting with deep learning models. I am constantly seeking opportunities to learn, collaborate, and grow in the tech field, whether through internships, research, or personal projects.
                 </p>
                  <div className="mt-8 flex flex-wrap gap-4">
-                 <Button variant="outline" size="lg" asChild>
+                 <Button variant="outline" size="lg"className="bg-primary hover:bg-primary/90 text-white font-semibold flex items-center gap-2 px-6 py-3 transition" asChild>
                  <a href="/fernando-jason-resume.pdf" download className="flex items-center gap-2">
                  <Download className="h-5 w-5" />
                   Download Resume
