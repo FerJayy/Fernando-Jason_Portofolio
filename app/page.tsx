@@ -26,7 +26,7 @@ export default function Portfolio() {
       <a href="#contact" className="text-muted-foreground transition-colors hover:text-primary">
         Contact
       </a>
-      <Button
+      {/* <Button
       variant="outline"
       className="text-sm px-4 py-1.5 border border-primary text-primary hover:bg-primary hover:text-white transition"
       asChild
@@ -34,8 +34,7 @@ export default function Portfolio() {
       <a href="/fernando-jason-resume.pdf" download>
       Resume
       </a>
-      </Button>
-
+      </Button> */}
     </div>
   </div>
 </nav>
@@ -92,13 +91,14 @@ export default function Portfolio() {
                 <p className="leading-relaxed">
                   Beyond academics, I enjoy working on projects that combine AI, data, and system design—from building intelligent applications to experimenting with deep learning models. I am constantly seeking opportunities to learn, collaborate, and grow in the tech field, whether through internships, research, or personal projects.
                 </p>
-                 <div className="mt-8 flex gap-4">
-                <Button asChild>
-                <a href="/Fernando-Jason-Resume.pdf" download>
-                Download Resume
-                </a>
-                </Button>
-                </div>
+                 <div className="mt-8 flex flex-wrap gap-4">
+                 <Button variant="outline" size="lg" asChild>
+                 <a href="/fernando-jason-resume.pdf" download className="flex items-center gap-2">
+                 <Download className="h-5 w-5" />
+                  Download Resume
+                  </a>
+                  </Button>
+                  </div>
               </div>
             </div>
             <div className="flex justify-center lg:justify-center">
