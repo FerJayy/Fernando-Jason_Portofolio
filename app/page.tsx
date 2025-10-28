@@ -212,7 +212,7 @@ export default function Portfolio() {
           <Card className="group border-border bg-card/80 transition-transform hover:-translate-y-1 shadow-md hover:shadow-lg overflow-hidden rounded-2xl">
             <div className="relative w-full h-40">
               <img
-                src="/HousePrediction.png"
+                src="/HousePredict.jpeg"
                 alt="House Prediction Model Preview"
                 className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
               />
