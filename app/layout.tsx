@@ -7,7 +7,7 @@ import { Suspense } from "react"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "Fernando Jasonn - Future AI engineer, Full-Stack Web Developer",
+  title: "Fernando Jasonn - Future AI engineer, Full-Stack Web Developer, Data Analyst/Engineer",
   description:
     "Portfolio of Fernando Jason, Future AI engineer, Full-Stack Web Developer passionate about building exceptional digital experiences.",
 }
