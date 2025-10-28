@@ -177,7 +177,7 @@ export default function Portfolio() {
             {"Self-made builds or projects that combines my creativity with technology."}
           </p>
           <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-           <Card className="group border-border bg-card/80 transition-transform hover:-translate-y-1 shadow-md hover:shadow-lg overflow-hidden rounded-2xl">
+          <Card className="group border-border bg-card/80 transition-transform hover:-translate-y-1 shadow-md hover:shadow-lg overflow-hidden rounded-2xl">
           <div className="relative w-full h-40">
           <img
             src="/Cateringz.png"
@@ -209,8 +209,15 @@ export default function Portfolio() {
       </div>
       </CardContent>
      </Card>
-            <Card className="group border-border bg-card/80 transition-transform hover:-translate-y-1 shadow-md hover:shadow-lg">
-              <CardContent className="p-6">
+          <Card className="group border-border bg-card/80 transition-transform hover:-translate-y-1 shadow-md hover:shadow-lg overflow-hidden rounded-2xl">
+            <div className="relative w-full h-40">
+              <img
+                src="/HousePrediction.png"
+                alt="House Prediction Model Preview"
+                className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+              />
+            </div>
+          <CardContent className="p-6 bg-card">
                 <div className="mb-4 flex items-start justify-between">
                   <h3 className="text-xl font-semibold transition-colors group-hover:text-primary text-primary">
                     House Prediction Model   
@@ -234,8 +241,15 @@ export default function Portfolio() {
                 </div>
               </CardContent>
             </Card>
-            <Card className="group border-border bg-card/80 transition-transform hover:-translate-y-1 shadow-md hover:shadow-lg">
-              <CardContent className="p-6">
+           <Card className="group border-border bg-card/80 transition-transform hover:-translate-y-1 shadow-md hover:shadow-lg overflow-hidden rounded-2xl">
+            <div className="relative w-full h-40">
+              <img
+                src="/CNN-UnetModel.png"
+                alt="House Prediction Model Preview"
+                className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+              />
+            </div>
+          <CardContent className="p-6 bg-card">
                 <div className="mb-4 flex items-start justify-between">
                   <h3 className="text-xl font-semibold transition-colors group-hover:text-primary text-primary">
                     CNN and U-Net  
@@ -259,8 +273,15 @@ export default function Portfolio() {
                 </div>
               </CardContent>
             </Card>
-            <Card className="group border-border bg-card/80 transition-transform hover:-translate-y-1 shadow-md hover:shadow-lg">
-              <CardContent className="p-6">
+            <Card className="group border-border bg-card/80 transition-transform hover:-translate-y-1 shadow-md hover:shadow-lg overflow-hidden rounded-2xl">
+            <div className="relative w-full h-40">
+              <img
+                src="/Mimo.png"
+                alt="House Prediction Model Preview"
+                className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+              />
+            </div>
+          <CardContent className="p-6 bg-card">
                 <div className="mb-4 flex items-start justify-between">
                   <h3 className="text-xl font-semibold transition-colors group-hover:text-primary text-primary">
                     Mimo.
