@@ -180,7 +180,7 @@ export default function Portfolio() {
            <Card className="group border-border bg-card/80 transition-transform hover:-translate-y-1 shadow-md hover:shadow-lg overflow-hidden">
         <div className="relative h-40 w-full overflow-hidden">
           <img
-            src="/cateringz.png"
+            src="/Cateringz.png"
             alt="CateringZ Preview"
             className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
           />
