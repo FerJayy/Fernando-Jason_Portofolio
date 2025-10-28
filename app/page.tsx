@@ -185,7 +185,7 @@ export default function Portfolio() {
                     House Prediction Model   
                   </h3>
                   <a
-                    href="https://github.com/FerJayy/Machine-Learning-House-Prediction-Model.git"
+                    href="https://github.com/FerJayy/Machine-Learning-House-Prediction-Model/blob/main/ProjectML.ipynb"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="h-5 w-5 text-muted-foreground group-hover:text-primary"
@@ -210,7 +210,7 @@ export default function Portfolio() {
                     CNN and U-Net  
                   </h3>
                   <a
-                    href="https://github.com/FerJayy/CNN-and-U-Net-Model.git"
+                    href="https://github.com/FerJayy/CNN-and-U-Net-Model/blob/main/RM_Model%20(1).ipynb"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="h-5 w-5 text-muted-foreground group-hover:text-primary"
