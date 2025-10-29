@@ -4,6 +4,7 @@ import { Github, Linkedin, Mail, ExternalLink, Instagram } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import TerminalDisplay from "@/components/terminal-display";
+import { FaWhatsapp } from "react-icons/fa";
 
 export default function Portfolio() {
   return (
@@ -364,16 +365,16 @@ export default function Portfolio() {
               </a>
             </Button>
             <Button variant="outline" size="lg" asChild>
-              <a
-                href="wa.me/6281932115107"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2"
-              >
-                <Whatsapp className="h-5 w-5" />
-                Whatsapp
-              </a>
-            </Button>
+            <a
+              href="https://wa.me/6281932115107"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2"
+            >  
+            <FaWhatsapp className="h-5 w-5 text-green-500" />
+              WhatsApp
+            </a>
+          </Button>
           </div>
         </div>
       </section>
