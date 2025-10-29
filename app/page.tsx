@@ -1,6 +1,6 @@
 "use client";
 import { Download } from "lucide-react";
-import { Github, Linkedin, Mail, ExternalLink, Instagram } from "lucide-react";
+import { Github, Linkedin, Mail, ExternalLink, Instagram, Phone} from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import TerminalDisplay from "@/components/terminal-display";
@@ -371,7 +371,7 @@ export default function Portfolio() {
               rel="noopener noreferrer"
               className="flex items-center gap-2"
             >  
-            <FaWhatsapp className="h-5 w-5 text-green-500" />
+            <Phone className="h-5 w-5 text-green-500" />
               WhatsApp
             </a>
           </Button>
