@@ -363,6 +363,17 @@ export default function Portfolio() {
                 Instagram
               </a>
             </Button>
+            <Button variant="outline" size="lg" asChild>
+              <a
+                href="wa.me/6281932115107"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2"
+              >
+                <Whatsapp className="h-5 w-5" />
+                Whatsapp
+              </a>
+            </Button>
           </div>
         </div>
       </section>
