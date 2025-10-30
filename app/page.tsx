@@ -309,6 +309,38 @@ export default function Portfolio() {
                 </div>
               </CardContent>
             </Card>
+             <Card className="group border-border bg-card/80 transition-transform hover:-translate-y-1 shadow-md hover:shadow-lg overflow-hidden rounded-2xl">
+          <div className="relative w-full h-40">
+          <img
+            src="/LungCNN.png"
+            alt="Lung Disease Detection Preview"
+            className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+          />
+        </div>
+        <CardContent className="p-6 bg-card">
+        <div className="mb-4 flex items-start justify-between">
+        <h3 className="text-xl font-semibold text-primary group-hover:text-primary/90">
+            Lung Disease Image Detection
+        </h3>
+        <a
+        href="https://github.com/FerJayy/Lung-Disease-Image-Detection/blob/main/main.ipynb"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="h-5 w-5 text-muted-foreground group-hover:text-primary"
+        >
+        <ExternalLink />
+      </a>
+      </div>
+        <p className="text-muted-foreground">
+          Developed a Convolutional Neural Network (CNN) from scratch to classify lung diseases — Normal, COVID-19, Lung Opacity, and Viral Pneumonia — using the COVID-19 Radiography Dataset. Implemented data preprocessing and augmentation to improve model performance and trained the model without using pre-trained architectures to better understand low-level feature learning.
+        </p>
+      <div className="mt-4 flex flex-wrap gap-2">
+        <span className="rounded bg-primary/15 px-2 py-1 text-xs text-primary">Tensorflow</span>
+        <span className="rounded bg-primary/15 px-2 py-1 text-xs text-primary">CNN</span>
+        <span className="rounded bg-primary/15 px-2 py-1 text-xs text-primary">Keras</span>
+      </div>
+      </CardContent>
+     </Card>
           </div>
         </div>
       </section>
