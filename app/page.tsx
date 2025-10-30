@@ -284,12 +284,8 @@ export default function Portfolio() {
           <CardContent className="p-6 bg-card">
                 <div className="mb-4 flex items-start justify-between">
                   <h3 className="text-xl font-semibold transition-colors group-hover:text-primary text-primary">
-                    Mimo.
+                    Mimo: Finance Tracker(On Progress)
                   </h3>
-                  <br></br>
-                  <h6 className="text-xl font-semibold transition-colors group-hover:text-primary text-primary">
-                    (On Progress..)
-                  </h6>
                   <a
                     href="https://mimo-finance-app.vercel.app/"
                     target="_blank"
