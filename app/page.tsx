@@ -332,7 +332,7 @@ export default function Portfolio() {
       </a>
       </div>
         <p className="text-muted-foreground">
-          Developed a Convolutional Neural Network (CNN) from scratch to classify lung diseases — Normal, COVID-19, Lung Opacity, and Viral Pneumonia — using the COVID-19 Radiography Dataset. Implemented data preprocessing and augmentation to improve model performance and trained the model without using pre-trained architectures to better understand low-level feature learning.
+          Developed a Convolutional Neural Network (CNN) from scratch to classify lung diseases — Normal, COVID-19, Lung Opacity, and Viral Pneumonia — using the COVID-19 Radiography Dataset.
         </p>
       <div className="mt-4 flex flex-wrap gap-2">
         <span className="rounded bg-primary/15 px-2 py-1 text-xs text-primary">Tensorflow</span>
