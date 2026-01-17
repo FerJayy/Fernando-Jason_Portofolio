@@ -337,6 +337,38 @@ export default function Portfolio() {
       </div>
       </CardContent>
      </Card>
+            <Card className="group border-border bg-card/80 transition-transform hover:-translate-y-1 shadow-md hover:shadow-lg overflow-hidden rounded-2xl">
+            <div className="relative w-full h-40">
+              <img
+                src="/Inventra.png"
+                alt="Inventra Preview"
+                className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+              />
+            </div>
+          <CardContent className="p-6 bg-card">
+                <div className="mb-4 flex items-start justify-between">
+                  <h3 className="text-xl font-semibold transition-colors group-hover:text-primary text-primary">
+                    Inventra
+                  </h3>
+                  <a
+                    href="https://github.com/FerJayy/Inventra"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="h-5 w-5 text-muted-foreground group-hover:text-primary"
+                  >
+                    <ExternalLink />
+                  </a>
+                </div>
+                <p className="text-muted-foreground">
+                  Inventra is a simple mobile lab inventory App, that helps us keep track of lab inventory items. (Group Project)
+                </p>
+                <div className="mt-4 flex flex-wrap gap-2">
+                  <span className="rounded bg-primary/15 px-2 py-1 text-xs text-primary">React.js</span>
+                  <span className="rounded bg-primary/15 px-2 py-1 text-xs text-primary">CSS</span>
+                  <span className="rounded bg-primary/15 px-2 py-1 text-xs text-primary">Firebase DB</span>
+                </div>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
