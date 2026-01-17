@@ -363,8 +363,8 @@ export default function Portfolio() {
                   Inventra is a simple mobile lab inventory App, that helps us keep track of lab inventory items. (Group Project)
                 </p>
                 <div className="mt-4 flex flex-wrap gap-2">
-                  <span className="rounded bg-primary/15 px-2 py-1 text-xs text-primary">React.js</span>
-                  <span className="rounded bg-primary/15 px-2 py-1 text-xs text-primary">CSS</span>
+                  <span className="rounded bg-primary/15 px-2 py-1 text-xs text-primary">Java</span>
+                  <span className="rounded bg-primary/15 px-2 py-1 text-xs text-primary">Grooy</span>
                   <span className="rounded bg-primary/15 px-2 py-1 text-xs text-primary">Firebase DB</span>
                 </div>
               </CardContent>
